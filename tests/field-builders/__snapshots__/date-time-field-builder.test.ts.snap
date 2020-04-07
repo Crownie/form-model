@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateTimeFieldBuilder 1`] = `
+Field {
+  "autocomplete": undefined,
+  "childField": undefined,
+  "conditionalDisable": undefined,
+  "conditionalHide": undefined,
+  "defaults": Object {
+    "array": Array [],
+    "boolean": false,
+    "number": "",
+    "object": Object {},
+    "string": "",
+  },
+  "fields": undefined,
+  "format": "MM/DD/YYYY hh:mm A",
+  "label": "Date",
+  "noWrap": false,
+  "options": undefined,
+  "schemaConfig": Object {
+    "defaultVal": null,
+    "type": "date",
+  },
+  "type": "date-time",
+  "width": Object {
+    "xs": 12,
+  },
+}
+`;
+
+exports[`DateTimeFieldBuilder 2`] = `
+Field {
+  "autocomplete": undefined,
+  "childField": undefined,
+  "conditionalDisable": undefined,
+  "conditionalHide": undefined,
+  "defaults": Object {
+    "array": Array [],
+    "boolean": false,
+    "number": "",
+    "object": Object {},
+    "string": "",
+  },
+  "fields": undefined,
+  "format": "MM/YYYY",
+  "label": "Date",
+  "noWrap": false,
+  "options": undefined,
+  "schemaConfig": Object {
+    "defaultVal": null,
+    "type": "date",
+  },
+  "type": "date",
+  "width": Object {
+    "xs": 12,
+  },
+}
+`;
+
+exports[`DateTimeFieldBuilder 3`] = `
+Field {
+  "autocomplete": undefined,
+  "childField": undefined,
+  "conditionalDisable": undefined,
+  "conditionalHide": undefined,
+  "defaults": Object {
+    "array": Array [],
+    "boolean": false,
+    "number": "",
+    "object": Object {},
+    "string": "",
+  },
+  "fields": undefined,
+  "format": "hh:mm",
+  "label": "Time",
+  "noWrap": false,
+  "options": undefined,
+  "schemaConfig": Object {
+    "defaultVal": null,
+    "type": "date",
+  },
+  "type": "time",
+  "width": Object {
+    "xs": 12,
+  },
+}
+`;

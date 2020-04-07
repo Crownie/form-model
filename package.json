@@ -1,0 +1,37 @@
+{
+  "name": "@crownie/form-model",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "jsnext:main": "dist-esm/index.js",
+  "module": "dist-esm/index.js",
+  "scripts": {
+    "build": "npm run clean && tsc && tsc -m es6 --outDir dist-esm",
+    "clean": "rimraf dist && rimraf dist-esm",
+    "prettier": "prettier --write \"*(src|tests)/**/*.*(ts|tsx)\"",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.get": "^4.4.2",
+    "react": "^16.13.1",
+    "yup": "^0.28.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/yup": "^0.26.34",
+    "husky": "^4.2.3",
+    "jest": "24.9.0",
+    "prettier": "^2.0.2",
+    "pretty-quick": "^2.0.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "24.3.0",
+    "tslib": "^1.11.1",
+    "typescript": "^3.8.3"
+  },
+  "description": ""
+}

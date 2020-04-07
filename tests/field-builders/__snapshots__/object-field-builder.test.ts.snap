@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ObjectFieldBuilder 1`] = `
+Field {
+  "autocomplete": undefined,
+  "childField": undefined,
+  "conditionalDisable": undefined,
+  "conditionalHide": undefined,
+  "defaults": Object {
+    "array": Array [],
+    "boolean": false,
+    "number": "",
+    "object": Object {},
+    "string": "",
+  },
+  "fields": Object {
+    "postcode": Field {
+      "autocomplete": undefined,
+      "childField": undefined,
+      "conditionalDisable": undefined,
+      "conditionalHide": undefined,
+      "defaults": Object {
+        "array": Array [],
+        "boolean": false,
+        "number": "",
+        "object": Object {},
+        "string": "",
+      },
+      "fields": undefined,
+      "format": undefined,
+      "label": "Postcode",
+      "noWrap": false,
+      "options": undefined,
+      "schemaConfig": Object {
+        "defaultVal": "",
+        "type": "string",
+      },
+      "type": "text",
+      "width": Object {
+        "xs": 12,
+      },
+    },
+    "street": Field {
+      "autocomplete": undefined,
+      "childField": undefined,
+      "conditionalDisable": undefined,
+      "conditionalHide": undefined,
+      "defaults": Object {
+        "array": Array [],
+        "boolean": false,
+        "number": "",
+        "object": Object {},
+        "string": "",
+      },
+      "fields": undefined,
+      "format": undefined,
+      "label": "Street",
+      "noWrap": false,
+      "options": undefined,
+      "schemaConfig": Object {
+        "defaultVal": "",
+        "type": "string",
+      },
+      "type": "text",
+      "width": Object {
+        "xs": 12,
+      },
+    },
+  },
+  "format": undefined,
+  "label": "Address",
+  "noWrap": false,
+  "options": undefined,
+  "schemaConfig": Object {
+    "defaultVal": Object {
+      "postcode": "",
+      "street": "",
+    },
+    "objectShape": Object {
+      "postcode": Object {
+        "defaultVal": "",
+        "type": "string",
+      },
+      "street": Object {
+        "defaultVal": "",
+        "type": "string",
+      },
+    },
+    "type": "object",
+  },
+  "type": "object",
+  "width": Object {
+    "xs": 12,
+  },
+}
+`;

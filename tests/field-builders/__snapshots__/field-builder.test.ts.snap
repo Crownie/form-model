@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldBuilder 1`] = `
+Field {
+  "autocomplete": undefined,
+  "childField": undefined,
+  "conditionalDisable": Condition {
+    "conditions": undefined,
+    "left": "some-field",
+    "operator": "$eq",
+    "right": "some-value",
+  },
+  "conditionalHide": Condition {
+    "conditions": undefined,
+    "left": "some-field",
+    "operator": "$eq",
+    "right": "some-value",
+  },
+  "defaults": Object {
+    "array": Array [],
+    "boolean": false,
+    "number": "",
+    "object": Object {},
+    "string": "",
+  },
+  "fields": undefined,
+  "format": undefined,
+  "label": "",
+  "noWrap": true,
+  "options": undefined,
+  "schemaConfig": Object {
+    "defaultVal": "",
+    "email": Object {
+      "errorMessage": "Not a valid email",
+      "val": "Not a valid email",
+    },
+    "equalToField": Object {
+      "errorMessage": "must match other field",
+      "val": "other-field",
+    },
+    "matches": Object {
+      "errorMessage": "must match pattern",
+      "val": /\\.\\*/,
+    },
+    "max": Object {
+      "errorMessage": "Too long",
+      "val": 2,
+    },
+    "min": Object {
+      "errorMessage": "Too short",
+      "val": 1,
+    },
+    "required": Object {
+      "errorMessage": "Required",
+      "val": "Required",
+    },
+    "type": "string",
+  },
+  "type": "ts",
+  "width": Object {
+    "sm": 2,
+    "xs": 12,
+  },
+}
+`;

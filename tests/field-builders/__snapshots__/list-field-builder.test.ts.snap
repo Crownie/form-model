@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListFieldBuilder 1`] = `
+Field {
+  "autocomplete": undefined,
+  "childField": Field {
+    "autocomplete": undefined,
+    "childField": undefined,
+    "conditionalDisable": undefined,
+    "conditionalHide": undefined,
+    "defaults": Object {
+      "array": Array [],
+      "boolean": false,
+      "number": "",
+      "object": Object {},
+      "string": "",
+    },
+    "fields": undefined,
+    "format": undefined,
+    "label": "Street",
+    "noWrap": false,
+    "options": undefined,
+    "schemaConfig": Object {
+      "defaultVal": "",
+      "type": "string",
+    },
+    "type": "text",
+    "width": Object {
+      "xs": 12,
+    },
+  },
+  "conditionalDisable": undefined,
+  "conditionalHide": undefined,
+  "defaults": Object {
+    "array": Array [],
+    "boolean": false,
+    "number": "",
+    "object": Object {},
+    "string": "",
+  },
+  "fields": undefined,
+  "format": undefined,
+  "label": "Address",
+  "noWrap": false,
+  "options": undefined,
+  "schemaConfig": Object {
+    "arrayType": Object {
+      "defaultVal": "",
+      "type": "string",
+    },
+    "defaultVal": Array [],
+    "type": "array",
+  },
+  "type": "list",
+  "width": Object {
+    "xs": 12,
+  },
+}
+`;
+
+exports[`ListFieldBuilder 2`] = `
+Field {
+  "autocomplete": undefined,
+  "childField": Field {
+    "autocomplete": undefined,
+    "childField": undefined,
+    "conditionalDisable": undefined,
+    "conditionalHide": undefined,
+    "defaults": Object {
+      "array": Array [],
+      "boolean": false,
+      "number": "",
+      "object": Object {},
+      "string": "",
+    },
+    "fields": undefined,
+    "format": undefined,
+    "label": "Postcode",
+    "noWrap": false,
+    "options": undefined,
+    "schemaConfig": Object {
+      "defaultVal": "",
+      "type": "string",
+    },
+    "type": "text",
+    "width": Object {
+      "xs": 12,
+    },
+  },
+  "conditionalDisable": undefined,
+  "conditionalHide": undefined,
+  "defaults": Object {
+    "array": Array [],
+    "boolean": false,
+    "number": "",
+    "object": Object {},
+    "string": "",
+  },
+  "fields": undefined,
+  "format": undefined,
+  "label": "Address",
+  "noWrap": false,
+  "options": undefined,
+  "schemaConfig": Object {
+    "arrayType": Object {
+      "defaultVal": "",
+      "type": "string",
+    },
+    "defaultVal": Array [],
+    "type": "array",
+  },
+  "type": "list",
+  "width": Object {
+    "xs": 12,
+  },
+}
+`;

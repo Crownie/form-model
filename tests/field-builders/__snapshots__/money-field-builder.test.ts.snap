@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoneyFieldBuilder 1`] = `
+Field {
+  "autocomplete": undefined,
+  "childField": undefined,
+  "conditionalDisable": undefined,
+  "conditionalHide": undefined,
+  "defaults": Object {
+    "array": Array [],
+    "boolean": false,
+    "number": "",
+    "object": Object {},
+    "string": "",
+  },
+  "fields": Object {},
+  "format": undefined,
+  "label": "price",
+  "noWrap": false,
+  "options": undefined,
+  "schemaConfig": Object {
+    "defaultVal": Object {
+      "amount": "",
+      "currency": "",
+    },
+    "objectShape": Object {
+      "amount": Object {
+        "max": Object {
+          "errorMessage": "Maximum is 100",
+          "val": 100,
+        },
+        "min": Object {
+          "errorMessage": "Minimum is 1",
+          "val": 1,
+        },
+        "required": Object {
+          "errorMessage": "Required",
+          "val": "Required",
+        },
+        "type": "number",
+      },
+      "currency": Object {
+        "required": Object {
+          "errorMessage": "Required",
+          "val": "Required",
+        },
+        "type": "string",
+      },
+    },
+    "required": Object {
+      "errorMessage": "Required",
+      "val": "Required",
+    },
+    "type": "object",
+  },
+  "type": "money",
+  "width": Object {
+    "xs": 12,
+  },
+}
+`;
