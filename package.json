@@ -33,5 +33,16 @@
     "ts-jest": "24.3.0",
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crownie/form-model.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Crownie/form-model/issues"
+  },
+  "homepage": "https://github.com/Crownie/form-model#readme"
 }
