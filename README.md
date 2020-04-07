@@ -2,7 +2,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![Linux Build][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
+[![Github License][license-image]][license-url]
 
 > Form model is a framework agnostic and deserializable form model.
 > It can be used to construct form structure regardless of how you want
@@ -91,5 +91,5 @@ Output
 [npm-url]: https://www.npmjs.com/package/@crownie/form-model
 [travis-image]: https://travis-ci.org/Crownie/form-model.svg?branch=master
 [travis-url]: https://travis-ci.org/github/Crownie/form-model
-[coveralls-image]: https://img.shields.io/coveralls/live-js/live-xxx/master.svg
-[coveralls-url]: https://coveralls.io/r/live-js/live-xxx?branch=master
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: https://raw.githubusercontent.com/Crownie/form-model/master/LICENSE.md
