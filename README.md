@@ -87,8 +87,8 @@ Output
 
 [MIT](http://vjpr.mit-license.org)
 
-[npm-image]: https://img.shields.io/npm/v/live-xxx.svg
-[npm-url]: https://npmjs.org/package/live-xxx
+[npm-image]: https://img.shields.io/npm/v/@crownie/form-modal.svg?style=flat
+[npm-url]: https://www.npmjs.com/package/@crownie/form-model
 [travis-image]: https://travis-ci.org/Crownie/form-model.svg?branch=master
 [travis-url]: https://travis-ci.org/github/Crownie/form-model
 [coveralls-image]: https://img.shields.io/coveralls/live-js/live-xxx/master.svg
