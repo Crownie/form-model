@@ -87,7 +87,7 @@ Output
 
 [MIT](http://vjpr.mit-license.org)
 
-[npm-image]: https://img.shields.io/npm/v/@crownie/form-modal.svg?style=flat
+[npm-image]: https://img.shields.io/npm/v/%40crownie/form-model.svg?style=flat
 [npm-url]: https://www.npmjs.com/package/@crownie/form-model
 [travis-image]: https://travis-ci.org/Crownie/form-model.svg?branch=master
 [travis-url]: https://travis-ci.org/github/Crownie/form-model
