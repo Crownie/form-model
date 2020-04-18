@@ -8,7 +8,7 @@ export class Condition implements ConditionAttributes {
   public conditions?: Condition[];
 
   constructor(builder: ConditionBuilder | Condition | ConditionAttributes) {
-    this.serialize(builder);
+    this.deserialize(builder);
   }
 
   static processCondition(data, condition: Condition): boolean {
@@ -39,7 +39,7 @@ export class Condition implements ConditionAttributes {
     return Condition.processCondition(data, this);
   }
 
-  serialize(obj: ConditionBuilder | any) {
+  deserialize(obj: ConditionBuilder | any): void {
     this.operator = obj.operator;
     this.left = obj.left;
     this.right = obj.right;
