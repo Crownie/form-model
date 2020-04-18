@@ -1,5 +1,5 @@
 import {FieldBuilder} from './field-builder';
-import Field, {SchemaConfig} from '../field';
+import {Field, SchemaConfig} from '../field';
 
 export class ObjectFieldBuilder extends FieldBuilder {
   constructor(label: string) {

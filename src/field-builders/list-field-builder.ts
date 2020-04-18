@@ -1,5 +1,5 @@
 import {FieldBuilder} from './field-builder';
-import Field from '../field';
+import {Field} from '../field';
 
 export class ListFieldBuilder extends FieldBuilder {
   constructor(label: string) {
