@@ -2,8 +2,6 @@
 
 exports[`FieldBuilder 1`] = `
 Field {
-  "autocomplete": undefined,
-  "childField": undefined,
   "conditionalDisable": Condition {
     "conditions": undefined,
     "left": "some-field",
@@ -16,18 +14,8 @@ Field {
     "operator": "$eq",
     "right": "some-value",
   },
-  "defaults": Object {
-    "array": Array [],
-    "boolean": false,
-    "number": "",
-    "object": Object {},
-    "string": "",
-  },
-  "fields": undefined,
-  "format": undefined,
   "label": "",
   "noWrap": true,
-  "options": undefined,
   "schemaConfig": Object {
     "defaultVal": "",
     "email": Object {

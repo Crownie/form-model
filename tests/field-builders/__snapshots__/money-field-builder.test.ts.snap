@@ -2,22 +2,9 @@
 
 exports[`MoneyFieldBuilder 1`] = `
 Field {
-  "autocomplete": undefined,
-  "childField": undefined,
-  "conditionalDisable": undefined,
-  "conditionalHide": undefined,
-  "defaults": Object {
-    "array": Array [],
-    "boolean": false,
-    "number": "",
-    "object": Object {},
-    "string": "",
-  },
   "fields": Object {},
-  "format": undefined,
   "label": "price",
   "noWrap": false,
-  "options": undefined,
   "schemaConfig": Object {
     "defaultVal": Object {
       "amount": "",

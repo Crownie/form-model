@@ -13,13 +13,6 @@ it('wizForm', () => {
       form: {
         fields: {
           title: {
-            defaults: {
-              array: [],
-              boolean: false,
-              number: '',
-              object: {},
-              string: '',
-            },
             label: 'Title',
             noWrap: false,
             schemaConfig: {

@@ -6,13 +6,6 @@ it('form', () => {
   form.addField('title', new FieldBuilder('text', 'Title', 'string'));
   expect(form.fields).toEqual({
     title: {
-      defaults: {
-        array: [],
-        boolean: false,
-        number: '',
-        object: {},
-        string: '',
-      },
       label: 'Title',
       noWrap: false,
       schemaConfig: {

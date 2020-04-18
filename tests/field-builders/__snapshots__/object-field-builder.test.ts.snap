@@ -2,35 +2,10 @@
 
 exports[`ObjectFieldBuilder 1`] = `
 Field {
-  "autocomplete": undefined,
-  "childField": undefined,
-  "conditionalDisable": undefined,
-  "conditionalHide": undefined,
-  "defaults": Object {
-    "array": Array [],
-    "boolean": false,
-    "number": "",
-    "object": Object {},
-    "string": "",
-  },
   "fields": Object {
     "postcode": Field {
-      "autocomplete": undefined,
-      "childField": undefined,
-      "conditionalDisable": undefined,
-      "conditionalHide": undefined,
-      "defaults": Object {
-        "array": Array [],
-        "boolean": false,
-        "number": "",
-        "object": Object {},
-        "string": "",
-      },
-      "fields": undefined,
-      "format": undefined,
       "label": "Postcode",
       "noWrap": false,
-      "options": undefined,
       "schemaConfig": Object {
         "defaultVal": "",
         "type": "string",
@@ -41,22 +16,8 @@ Field {
       },
     },
     "street": Field {
-      "autocomplete": undefined,
-      "childField": undefined,
-      "conditionalDisable": undefined,
-      "conditionalHide": undefined,
-      "defaults": Object {
-        "array": Array [],
-        "boolean": false,
-        "number": "",
-        "object": Object {},
-        "string": "",
-      },
-      "fields": undefined,
-      "format": undefined,
       "label": "Street",
       "noWrap": false,
-      "options": undefined,
       "schemaConfig": Object {
         "defaultVal": "",
         "type": "string",
@@ -67,10 +28,8 @@ Field {
       },
     },
   },
-  "format": undefined,
   "label": "Address",
   "noWrap": false,
-  "options": undefined,
   "schemaConfig": Object {
     "defaultVal": Object {
       "postcode": "",

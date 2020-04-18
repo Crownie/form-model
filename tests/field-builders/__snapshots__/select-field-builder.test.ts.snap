@@ -3,18 +3,6 @@
 exports[`SelectFieldBuilder 1`] = `
 Field {
   "autocomplete": true,
-  "childField": undefined,
-  "conditionalDisable": undefined,
-  "conditionalHide": undefined,
-  "defaults": Object {
-    "array": Array [],
-    "boolean": false,
-    "number": "",
-    "object": Object {},
-    "string": "",
-  },
-  "fields": undefined,
-  "format": undefined,
   "label": "Address",
   "noWrap": false,
   "options": Array [
