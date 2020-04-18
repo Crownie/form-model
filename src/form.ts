@@ -31,5 +31,3 @@ export class Form {
     return this;
   }
 }
-
-export default Form;

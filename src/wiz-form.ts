@@ -1,4 +1,4 @@
-import Form from './form';
+import {Form} from './form';
 
 export class WizForm {
   public steps: WizFormStep[] = [];
