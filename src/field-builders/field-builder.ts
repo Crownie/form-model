@@ -19,15 +19,10 @@ export class FieldBuilder {
   public format?: string;
   public conditionalDisable?: Condition;
   public conditionalHide?: Condition;
-  protected obj = {
-    schema: undefined,
-    label: undefined,
-    field: undefined,
-  };
-  protected schemaConfig: SchemaConfig = {
+  public schemaConfig: SchemaConfig = {
     type: 'mixed',
   };
-  private defaults = {
+  private static defaults = {
     string: '',
     number: '',
     boolean: false,
@@ -40,7 +35,7 @@ export class FieldBuilder {
     this.type = fieldType;
     this.label = label;
     this.schemaConfig.type = dataType;
-    this.schemaConfig.defaultVal = this.defaults[dataType];
+    this.schemaConfig.defaultVal = FieldBuilder.defaults[dataType];
     if (dataType === 'object') {
       this.fields = {};
     }
