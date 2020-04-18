@@ -1,6 +1,6 @@
 {
   "name": "@crownie/form-model",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A framework agnostic form model",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
