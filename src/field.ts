@@ -5,39 +5,37 @@ import {Condition} from './condition';
 
 export class Field {
   private static renderer: FieldRenderer;
-  public type: string;
-  public label: string;
+  public type: string = '';
+  public label: string = '';
   public width: ResponsiveSize = {xs: 12};
-  public noWrap: boolean;
+  public noWrap: boolean = false;
   public childField?: Field;
   public fields?: {[key: string]: Field};
   public options?: OptionItem[];
   public format?: string;
   public autocomplete?: boolean;
-  private readonly schemaConfig: SchemaConfig;
-  private readonly conditionalDisable?: Condition;
-  private readonly conditionalHide?: Condition;
-  private defaults = {
-    string: '',
-    number: '',
-    boolean: false,
-    array: [],
-    object: {},
-  };
+  private schemaConfig: SchemaConfig = {type: 'mixed'};
+  private conditionalDisable?: Condition;
+  private conditionalHide?: Condition;
 
-  constructor(fieldBuilder: FieldBuilder) {
-    this.type = fieldBuilder.type;
-    this.label = fieldBuilder.label;
-    this.width = fieldBuilder.width;
-    this.noWrap = fieldBuilder.noWrap;
-    this.childField = fieldBuilder.childField;
-    this.autocomplete = fieldBuilder.autocomplete;
-    this.schemaConfig = fieldBuilder.getSchemaConfig();
-    this.fields = fieldBuilder.fields;
-    this.options = fieldBuilder.options;
-    this.format = fieldBuilder.format;
-    this.conditionalDisable = fieldBuilder.conditionalDisable;
-    this.conditionalHide = fieldBuilder.conditionalHide;
+  constructor(fieldBuilder: FieldBuilder | Field | any) {
+    this.deserialize(fieldBuilder);
+  }
+
+  toObject(): any {
+    return cloneDeep(this);
+  }
+
+  deserialize(fieldBuilder: FieldBuilder | Field | any): void {
+    for (let property of Object.keys(fieldBuilder)) {
+      if (['conditionalDisable', 'conditionalHide'].includes(property)) {
+        if (fieldBuilder[property]) {
+          this[property] = new Condition(fieldBuilder[property]);
+        }
+      } else {
+        this[property] = fieldBuilder[property];
+      }
+    }
   }
 
   get min() {
@@ -185,5 +183,3 @@ export interface OptionItem {
 
 // register custom validation function
 Yup.addMethod(Yup.string, 'equalToField', Field.equalToFieldFn);
-
-export default Field;
