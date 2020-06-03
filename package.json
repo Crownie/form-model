@@ -4,18 +4,20 @@
   "description": "A framework agnostic form model",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "jsnext:main": "dist-esm/index.js",
-  "module": "dist-esm/index.js",
+  "module": "dist/index.d.ts",
   "scripts": {
-    "build": "npm run clean && tsc && tsc -m es6 --outDir dist-esm",
-    "clean": "rimraf dist && rimraf dist-esm",
+    "build": "rimraf dist && tsc",
     "prettier": "prettier --write \"*(src|tests)/**/*.*(ts|tsx)\"",
     "test": "jest",
-    "prepare": "npm run build",
+    "preversion": "npm run build",
+    "prepublishOnly": "npm run build",
     "postpublish": "git push --tags"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "form model",
+    "serialize form"
+  ],
+  "author": "Tobi Ayilara",
   "license": "ISC",
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
@@ -33,9 +35,6 @@
     "ts-jest": "24.3.0",
     "tslib": "^1.11.1",
     "typescript": "^3.8.3"
-  },
-  "directories": {
-    "test": "tests"
   },
   "repository": {
     "type": "git",
