@@ -4,6 +4,7 @@ exports[`SelectFieldBuilder 1`] = `
 Field {
   "autocomplete": true,
   "label": "Address",
+  "meta": Object {},
   "noWrap": false,
   "options": Array [
     Object {

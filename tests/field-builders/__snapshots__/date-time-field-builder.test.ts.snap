@@ -4,6 +4,7 @@ exports[`DateTimeFieldBuilder 1`] = `
 Field {
   "format": "MM/DD/YYYY hh:mm A",
   "label": "Date",
+  "meta": Object {},
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": null,
@@ -20,6 +21,7 @@ exports[`DateTimeFieldBuilder 2`] = `
 Field {
   "format": "MM/YYYY",
   "label": "Date",
+  "meta": Object {},
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": null,
@@ -36,6 +38,7 @@ exports[`DateTimeFieldBuilder 3`] = `
 Field {
   "format": "hh:mm",
   "label": "Time",
+  "meta": Object {},
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": null,

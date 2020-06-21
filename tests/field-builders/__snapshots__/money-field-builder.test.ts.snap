@@ -4,6 +4,7 @@ exports[`MoneyFieldBuilder 1`] = `
 Field {
   "fields": Object {},
   "label": "price",
+  "meta": Object {},
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": Object {

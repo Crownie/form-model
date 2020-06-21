@@ -3,6 +3,7 @@
 exports[`TextFieldBuilder 1`] = `
 Field {
   "label": "Password",
+  "meta": Object {},
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": "",

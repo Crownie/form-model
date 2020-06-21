@@ -4,6 +4,7 @@ exports[`ListFieldBuilder 1`] = `
 Field {
   "childField": Field {
     "label": "Street",
+    "meta": Object {},
     "noWrap": false,
     "schemaConfig": Object {
       "defaultVal": "",
@@ -15,6 +16,7 @@ Field {
     },
   },
   "label": "Address",
+  "meta": Object {},
   "noWrap": false,
   "schemaConfig": Object {
     "arrayType": Object {
@@ -35,6 +37,7 @@ exports[`ListFieldBuilder 2`] = `
 Field {
   "childField": Field {
     "label": "Postcode",
+    "meta": Object {},
     "noWrap": false,
     "schemaConfig": Object {
       "defaultVal": "",
@@ -46,6 +49,7 @@ Field {
     },
   },
   "label": "Address",
+  "meta": Object {},
   "noWrap": false,
   "schemaConfig": Object {
     "arrayType": Object {

@@ -16,6 +16,7 @@ it('form', () => {
       width: {
         xs: 12,
       },
+      meta: {},
     },
   });
   expect(form.defaultValues).toEqual({

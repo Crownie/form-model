@@ -5,6 +5,7 @@ Field {
   "fields": Object {
     "postcode": Field {
       "label": "Postcode",
+      "meta": Object {},
       "noWrap": false,
       "schemaConfig": Object {
         "defaultVal": "",
@@ -17,6 +18,7 @@ Field {
     },
     "street": Field {
       "label": "Street",
+      "meta": Object {},
       "noWrap": false,
       "schemaConfig": Object {
         "defaultVal": "",
@@ -29,6 +31,7 @@ Field {
     },
   },
   "label": "Address",
+  "meta": Object {},
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": Object {

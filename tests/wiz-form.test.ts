@@ -23,6 +23,7 @@ it('wizForm', () => {
             width: {
               xs: 12,
             },
+            meta: {},
           },
         },
       },

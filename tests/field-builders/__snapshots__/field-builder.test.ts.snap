@@ -15,6 +15,7 @@ Field {
     "right": "some-value",
   },
   "label": "",
+  "meta": Object {},
   "noWrap": true,
   "schemaConfig": Object {
     "defaultVal": "",
