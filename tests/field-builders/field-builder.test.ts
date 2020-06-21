@@ -16,6 +16,8 @@ it('FieldBuilder', () => {
       new Condition({operator: '$eq', left: 'some-field', right: 'some-value'}),
     )
     .matches(/.*/, 'must match pattern')
+    .addMeta('extra-data', 'Heyy')
+    .nullable()
     .build();
 
   expect(field.min).toEqual(field.getSchemaConfig().min!.val);
