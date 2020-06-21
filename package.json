@@ -11,7 +11,7 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "test": "jest",
-    "preversion": "npm run build",
+    "preversion": "npm test && npm run build",
     "prepublishOnly": "npm run build",
     "postpublish": "git push --tags"
   },
