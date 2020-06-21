@@ -57,6 +57,7 @@ export class Field {
     objectShape,
     required,
     defaultVal,
+    nullable,
     ...config
   }: SchemaConfig) {
     let schema =
@@ -82,6 +83,9 @@ export class Field {
       }
     }
     schema = schema.default(defaultVal);
+    if (nullable) {
+      schema.nullable();
+    }
     return schema;
   }
 
@@ -173,6 +177,7 @@ export interface SchemaConfig {
   email?: Rule;
   matches?: Rule;
   equalToField?: Rule;
+  nullable?: boolean;
 }
 
 export type FieldRenderer = (fieldName: string, field: Field) => any;
