@@ -15,7 +15,9 @@ Field {
     "right": "some-value",
   },
   "label": "",
-  "meta": Object {},
+  "meta": Object {
+    "extra-data": "Heyy",
+  },
   "noWrap": true,
   "schemaConfig": Object {
     "defaultVal": "",
@@ -39,6 +41,7 @@ Field {
       "errorMessage": "Too short",
       "val": 1,
     },
+    "nullable": true,
     "required": Object {
       "errorMessage": "Required",
       "val": "Required",

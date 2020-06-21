@@ -8,6 +8,7 @@ Field {
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": null,
+    "nullable": true,
     "type": "date",
   },
   "type": "date-time",
@@ -25,6 +26,7 @@ Field {
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": null,
+    "nullable": true,
     "type": "date",
   },
   "type": "date",
@@ -42,6 +44,7 @@ Field {
   "noWrap": false,
   "schemaConfig": Object {
     "defaultVal": null,
+    "nullable": true,
     "type": "date",
   },
   "type": "time",
