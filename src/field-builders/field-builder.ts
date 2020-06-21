@@ -116,6 +116,16 @@ export class FieldBuilder {
     return this;
   }
 
+  nullable(): this {
+    this.schemaConfig.nullable = true;
+    return this;
+  }
+
+  addMeta(key: string, value: any): this {
+    this.meta[key] = value;
+    return this;
+  }
+
   disableWhen(condition: Condition): this {
     this.conditionalDisable = condition;
     return this;
