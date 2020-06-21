@@ -17,6 +17,7 @@ it('FieldBuilder', () => {
     )
     .matches(/.*/, 'must match pattern')
     .addMeta('extra-data', 'Heyy')
+    .help('This is an helper text')
     .nullable()
     .build();
 
