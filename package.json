@@ -24,11 +24,11 @@
   "dependencies": {
     "lodash.clonedeep": "^4.5.0",
     "lodash.get": "^4.4.2",
-    "yup": "^0.28.3"
+    "yup": "^0.29.1"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",
-    "@types/yup": "^0.26.34",
+    "@types/yup": "^0.29.3",
     "husky": "^4.2.3",
     "jest": "24.9.0",
     "prettier": "^2.0.2",
