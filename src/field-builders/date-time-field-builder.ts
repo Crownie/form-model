@@ -4,6 +4,7 @@ export class DateTimeFieldBuilder extends FieldBuilder {
   constructor(label: string) {
     super('date-time', label, 'date');
     this.format = 'MM/DD/YYYY hh:mm A';
+    this.schemaConfig.nullable = true;
   }
 
   dateOnly(format: string = 'MM/DD/YYYY'): this {
