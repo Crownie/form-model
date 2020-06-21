@@ -17,6 +17,7 @@ export class FieldBuilder {
   public fields?: {[key: string]: Field};
   public options?: OptionItem[];
   public format?: string;
+  public meta?: Record<string, any> = {};
   public conditionalDisable?: Condition;
   public conditionalHide?: Condition;
   public schemaConfig: SchemaConfig = {

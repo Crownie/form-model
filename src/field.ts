@@ -14,6 +14,7 @@ export class Field {
   public options?: OptionItem[];
   public format?: string;
   public autocomplete?: boolean;
+  public meta?: Record<string, any> = {};
   private schemaConfig: SchemaConfig = {type: 'mixed'};
   private conditionalDisable?: Condition;
   private conditionalHide?: Condition;
