@@ -17,6 +17,7 @@ export class FieldBuilder {
   public fields?: {[key: string]: Field};
   public options?: OptionItem[];
   public format?: string;
+  public helperText?: string;
   public meta?: Record<string, any> = {};
   public conditionalDisable?: Condition;
   public conditionalHide?: Condition;
@@ -55,6 +56,11 @@ export class FieldBuilder {
   arrayType(schemaConfig: SchemaConfig) {
     this.schemaConfig.type = 'array';
     this.schemaConfig.arrayType = schemaConfig;
+  }
+
+  help(text: string): this {
+    this.helperText = text;
+    return this;
   }
 
   objectShape(shape: SchemaConfig['objectShape']) {
