@@ -84,7 +84,7 @@ export class Field {
     }
     schema = schema.default(defaultVal);
     if (nullable) {
-      schema.nullable();
+      schema = schema.nullable();
     }
     return schema;
   }
