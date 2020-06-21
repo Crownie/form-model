@@ -4,13 +4,13 @@
 [![Linux Build][travis-image]][travis-url]
 [![Github License][license-image]][license-url]
 
-> Form model is a framework agnostic and deserializable form model.
-> It can be used to construct form structure regardless of how you want
-> to render the UI. This allows reusability of form structure across
-> different presentation layer.
->
-> This consists of various classes that are extendable, should you
-> need to add more functionality.
+Form model is a framework agnostic and deserializable form model.
+It can be used to construct form structure regardless of how you want
+to render the UI. This allows reusability of form structure across
+different presentation layer.
+
+This consists of various classes that are extendable, should you
+need to add more functionality.
 
 ## Install
 
