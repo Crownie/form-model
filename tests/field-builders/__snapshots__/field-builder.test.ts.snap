@@ -14,6 +14,7 @@ Field {
     "operator": "$eq",
     "right": "some-value",
   },
+  "helperText": "This is an helper text",
   "label": "",
   "meta": Object {
     "extra-data": "Heyy",
