@@ -183,7 +183,7 @@ export interface SchemaConfig {
 
 export type FieldRenderer = (fieldName: string, field: Field) => any;
 
-export interface OptionItem {
+export interface OptionItem extends Record<string, any> {
   id: string | number;
   label: string;
 }
