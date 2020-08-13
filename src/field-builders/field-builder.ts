@@ -53,9 +53,10 @@ export class FieldBuilder {
     return this;
   }
 
-  arrayType(schemaConfig: SchemaConfig) {
+  arrayType(schemaConfig: SchemaConfig): this {
     this.schemaConfig.type = 'array';
     this.schemaConfig.arrayType = schemaConfig;
+    return this;
   }
 
   help(text: string): this {
